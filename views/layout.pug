@@ -1,0 +1,39 @@
+block variables
+
+
+html.yui3-js-enabled(lang='en-GB')
+  head
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no')
+    meta(name='google', value='notranslate')
+    meta(name='description', content='Play the latest and most exciting online casino games ✓Roulette ✓Slots ✓Blackjack. New? Join today &amp; Get 30 Free Spins! T&amp;Cs Apply.')
+    title Betfair &raquo; Online Casino Games | Join Now &amp; Get 30 Free Spins
+    link(href='/stylesheets/betfair-1.css', type='text/css', rel='stylesheet')
+    link(href='/stylesheets/betfair-2.css', type='text/css', rel='stylesheet')
+    link(href='/stylesheets/betfair-3.css', type='text/css', rel='stylesheet')
+    link(href='/stylesheets/betfair-4.css', type='text/css', rel='stylesheet')
+    link(href='/stylesheets/betfair-5.css', type='text/css', rel='stylesheet')
+    link(href='/stylesheets/betfair-6.css', type='text/css', rel='stylesheet')
+    link(href='/stylesheets/betfair-7.css', type='text/css', rel='stylesheet')
+    link(href='/stylesheets/styles.css', type='text/css', rel='stylesheet')
+    link(href="https://fonts.googleapis.com/icon?family=Material+Icons" rel='stylesheet')
+    link(rel='image_src', href='/images/default-thumb.png')
+    // Maxymiser script start
+    //script(type='text/javascript', src='/javascript/betfair-1.js')
+    //style#mm_style_mm_cdApiStyleId_1(type='text/css', media='screen').
+    //script(type='text/javascript', id='mmpack.0', src='/javascript/betfair-2.js')
+    // Maxymiser script end
+
+    // Required for Previews and Experiments
+    script(src="//code.jquery.com/jquery-2.1.1.min.js")
+    script
+      = ctx?"window.prismic = { endpoint: '" + ctx.endpoint + "' };":""
+    script(src="//static.cdn.prismic.io/prismic.min.js")
+
+  body.layout-casino-centered.product-casino.page-.lang-en.jur-INTERNATIONAL(data-wio-id=activeDoc.id)
+    include ./layout/header.pug
+
+    block body
+
+    include ./layout/footer.pug
