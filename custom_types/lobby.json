@@ -44,6 +44,32 @@
                 }
               }
             }
+          },
+          "banner" : {
+            "type" : "Slice",
+            "fieldset" : "Banner",
+            "description" : "Banner",
+            "icon" : "panorama_wide_angle",
+            "non-repeat" : {
+              "image" : {
+                "type" : "Image",
+                "config" : {
+                  "constraint" : {
+                    "width" : null,
+                    "height" : null
+                  },
+                  "thumbnails" : [ ],
+                  "label" : "Image"
+                }
+              },
+              "link" : {
+                "type" : "Link",
+                "config" : {
+                  "label" : "Link"
+                }
+              }
+            },
+            "repeat" : { }
           }
         }
       }
